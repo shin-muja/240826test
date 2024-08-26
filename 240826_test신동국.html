@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>240826_test신동국</title>
+
+  <link rel="stylesheet" href="./css/240826_test신동국.css">
+</head>
+
+<body>
+
+  <main>
+    <section>
+      <div class="container-1">
+        <div><div class="text-head">너비</div> : <input type="number" class="result-boxsize" > px</div>
+        <div><div class="text-head">글자 크기</div> : <input id="result-size" type="number"> px</div>
+        <div><div class="text-head">글자 색</div> : <input id="result-color" ></div>
+      </div>
+
+      <div class="container-2">
+        <div><div class="text-head">높이</div> : <input type="number" class="result-boxsize" > px</div>
+        <div><div class="text-head">굵기</div> : 
+          <label>보통<input type="radio" name="result-weight" value="normal" ></label>
+          <label>굵게<input type="radio" name="result-weight" value="bolder"></label>
+        </div>
+          <div><div class="text-head">배경색</div> : <input type="text" id="result-backcolor" ></div>
+        </div>
+    </section>
+
+    <!-- 가로 정렬, 세로정렬-->
+    <section>
+      <div><div class="text-head">가로정렬</div> : 
+        <label>왼쪽 <input type="radio" name="result-row"  value="flex-start"></label> <pre>|</pre> 
+        <label>가운데 <input type="radio" name="result-row" value="center"></label> <pre>|</pre>
+        <label>오른쪽 <input type="radio" name="result-row" value="flex-end"></label>
+        
+      </div>
+        
+      <div><div class="text-head">세로정렬</div> :
+        <label>위 <input type="radio" name="result-col" value="flex-start"></label> <pre>|</pre> 
+        <label>가운데 <input type="radio" name="result-col" value="center"></label> <pre>|</pre> 
+        <label>아래 <input type="radio" name="result-col" value="flex-end"></label>
+      </div>
+      <div><div class="text-head">출력 문자열</div> : <input type="text" id="result-text" ></div>
+
+    </section>
+    <div>
+
+      <button id="play">적용하기</button>
+
+      <div id="result"></div>
+    </div>
+  </main>
+
+
+  <script src="./js/240826_test신동국.js"></script>
+
+</body>
+</html>
