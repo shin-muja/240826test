@@ -51,3 +51,5 @@ document.getElementById("play").addEventListener("click", () => {
   testResult.style.border="3px solid black";
   
 });
+
+console.log("마지막 추가");
